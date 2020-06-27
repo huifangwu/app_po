@@ -2,7 +2,7 @@ import allure
 
 
 class TestSetup:
-
+    # 步骤
     @allure.severity(allure.severity_level.BLOCKER)  # 最重要的用例
     @allure.step('我是测试步骤名称')
     def test_001(self):
